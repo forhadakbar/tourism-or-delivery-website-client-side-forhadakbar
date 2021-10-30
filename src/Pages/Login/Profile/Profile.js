@@ -56,7 +56,8 @@ const Profile = () => {
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div class="form-group">
                                         <label for="website">Website URL</label>
-                                        <input type="url" class="form-control" id="website" placeholder="https://wecare-healthcare.firebaseapp.com/" />
+                                        <input type="url" class="form-control" id="website" placeholder="https://tourism-website-forhadakbar	
+.firebaseapp.com/" />
                                     </div>
                                 </div>
                             </div>
