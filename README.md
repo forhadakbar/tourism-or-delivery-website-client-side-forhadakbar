@@ -1,4 +1,4 @@
-# WeTourTravel HealthCare Website
+# WeTourTravel Website
 
 This project was deployed in Firebase [Go To Live Site]().
 
