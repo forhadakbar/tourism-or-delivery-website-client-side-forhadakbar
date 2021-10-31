@@ -1,8 +1,6 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faTrash } from '@fortawesome/free-solid-svg-icons';
-import PreLoader from '../PreLoader/PreLoader';
 import { useAPI } from '../../Context/apiContext';
-import { useEffect, useState } from 'react';
 // ==============================================================================
 
 const Admin = () => {

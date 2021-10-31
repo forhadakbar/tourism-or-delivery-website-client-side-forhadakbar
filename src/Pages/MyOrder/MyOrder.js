@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { useAPI } from '../../Context/apiContext';
-import PreLoader from '../PreLoader/PreLoader'
 import UserBooking from './UserBooking';
 
 const MyOrders = () => {

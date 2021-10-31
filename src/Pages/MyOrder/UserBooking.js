@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const UserBooking = (props) => {
     // Receive props from UserDashboard Component
     const { title, _id, date, img } = props.booking;

@@ -211,6 +211,3 @@ const Booking = () => {
 };
 
 export default Booking;
-
-
-{/* <h1>{filterData[0].title}</h1> */ }

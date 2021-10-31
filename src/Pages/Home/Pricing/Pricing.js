@@ -31,7 +31,7 @@ const Pricing = () => {
                                             <li><i className="fa fa-times"></i> Live Support</li>
                                         </ul>
                                     </div>
-                                    <a href="#">Order Now</a>
+                                    <a className="a-tag" href="#">Order Now</a>
                                 </div>
                             </div>
 
@@ -52,7 +52,7 @@ const Pricing = () => {
                                             <li><i className="fa fa-times"></i> Live Support</li>
                                         </ul>
                                     </div>
-                                    <a href="#">Order Now</a>
+                                    <a className="a-tag" href="#">Order Now</a>
                                 </div>
                             </div>
 
@@ -73,7 +73,7 @@ const Pricing = () => {
                                             <li><i className="fa fa-check"></i> Live Support</li>
                                         </ul>
                                     </div>
-                                    <a href="#">Order Now</a>
+                                    <a className="a-tag" href="#">Order Now</a>
                                 </div>
                             </div>
 
@@ -82,7 +82,6 @@ const Pricing = () => {
                     </div>
                 </div>
             </section>
-            <a href="https://www.youtube.com/watch?v=og2BwCm1m38" >credit</a>
         </div>
     );
 };

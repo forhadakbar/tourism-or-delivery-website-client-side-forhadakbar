@@ -125,7 +125,7 @@ body{
 	font-size: 16px;
 }
 
-.card a{
+.a-tag{
 	position: relative;
 	z-index: 2;
 	background: #fff;

@@ -5,7 +5,7 @@ const Subscription = () => {
     return (
         <div id="subscription">
 
-            <section className="container d-flex justify-content-center background mb-5 p-5 border-5 rounded-3"
+            <section className="container d-flex justify-content-center background my-5 p-5 border-5 rounded-3"
                 id="subscribe">
                 <div>
                     <h1>LET'S STAY IN TOUCH</h1>
