@@ -23,7 +23,7 @@ const AddNewService = () => {
     const onSubmit = data => {
 
 
-        axios.post('http://localhost:5000/services', data)
+        axios.post('https://gentle-earth-79632.herokuapp.com/services', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Data entry successfull');
