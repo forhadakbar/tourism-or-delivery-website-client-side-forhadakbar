@@ -8,9 +8,12 @@ import Profile from './Pages/Login/Profile/Profile';
 import Register from './Pages/Login/Resgister/Register';
 import NotFound from './Pages/NotFound/NotFound';
 import Plans from './Pages/Plans/Plans';
-import SeeDetails from './Pages/SeeDetails/SeeDetails';
+import Booking from './Pages/Booking/Booking';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
+import MyOrders from './Pages/MyOrder/MyOrder';
+import Admin from './Pages/Admin/Admin';
+import AddNewService from './Pages/AddNewService/AddNewService';
 
 function App() {
   return (
@@ -38,7 +41,22 @@ function App() {
 
             {/* Private Route */}
             <PrivateRoute path="/services/:serviceId">
-              <SeeDetails></SeeDetails>
+              <Booking></Booking>
+            </PrivateRoute>
+
+            {/* Private Route */}
+            <PrivateRoute path="/myorders">
+              <MyOrders></MyOrders>
+            </PrivateRoute>
+
+            {/* Private Route */}
+            <PrivateRoute path="/allorders">
+              <Admin></Admin>
+            </PrivateRoute>
+
+            {/* Private Route */}
+            <PrivateRoute path="/addnewservice">
+              <AddNewService></AddNewService>
             </PrivateRoute>
 
             <Route path="/register">

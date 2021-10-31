@@ -1,49 +1,45 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
-// import images for carousel
-import silde1 from "../../../images/banner/slide1.png"
-import silde2 from "../../../images/banner/slide2.png"
-import silde3 from "../../../images/banner/slide3.png"
+// import/host images from imgbb
 
 const Banner = () => {
     return (
         <div id="home">
-            <Carousel>
+            <Carousel >
                 <Carousel.Item >
                     <img
                         className="d-block w-100"
-                        src={silde1}
+                        src="https://i.ibb.co/41kYKk5/mesut-kaya-e-Ocyhe5-9s-Q-unsplash.jpg"
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>Healthcare
-                            You Can Afford.</h3>
-                        <p>Get healthcare for 80% less</p>
+                        <h3>We help you to carve your own path from the endless outdoor recreation</h3>
+                        <p>Travel for 80% less</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={silde2}
+                        src="https://i.ibb.co/CMdsG88/s-migaj-Yui5vf-KHuzs-unsplash.jpg"
                         alt="Second slide"
                     />
 
                     <Carousel.Caption>
-                        <h3>Special Care with Great Doctor</h3>
-                        <p>Connect with Our Specialist at Your Convenience</p>
+                        <h3>We offer memorable peacefull moments</h3>
+                        <p>Connect with Our personalize tour Specialist</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={silde3}
+                        src="https://i.ibb.co/VTFrxbD/dino-reichmuth-A5r-CN8626-Ck-unsplash.jpg"
                         alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                        <h3>Health Care for Any Age</h3>
-                        <p>Get the care you need regardless of age and precondtion</p>
+                        <h3>Book your road trip with us</h3>
+                        <p>Get the best deal</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

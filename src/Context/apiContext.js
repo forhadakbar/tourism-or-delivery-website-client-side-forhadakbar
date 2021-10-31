@@ -10,6 +10,7 @@ const APIContextProvider = ({ children }) => {
 
     //data
     const [fakeData, setFakeData] = useState([]);
+    const [bookings, SetBookings] = useState([]);
     const [isLoadingData, setIsLoadingData] = useState(true);
 
 
@@ -21,8 +22,20 @@ const APIContextProvider = ({ children }) => {
             .then(data => {
                 setFakeData(data)
                 setIsLoadingData(false)
+                console.log(fakeData)
             })
-    }, [])
+    }, []);
+
+
+    useEffect(() => {
+        fetch("https://gentle-earth-79632.herokuapp.com/adminTasks")
+            .then(res => res.json())
+            .then(data => {
+                SetBookings(data)
+                setIsLoadingData(false)
+                console.log(bookings)
+            })
+    }, []);
 
 
     //firebase authentication
@@ -97,6 +110,7 @@ const APIContextProvider = ({ children }) => {
         <APIContext.Provider
             value={{
                 fakeData,
+                bookings,
                 isLoadingData,
                 isLoading,
                 registrationUsingEmail,

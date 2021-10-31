@@ -7,6 +7,8 @@ const Services = () => {
 
     const { fakeData } = useAPI();
 
+    console.log(fakeData);
+
     return (
         <div id="services" className="p-3">
 
@@ -16,7 +18,7 @@ const Services = () => {
 
                 {
                     fakeData.map(service => <Service
-                        key={service.id}
+                        key={service._id}
                         service={service}
                     ></Service>)
                 }
