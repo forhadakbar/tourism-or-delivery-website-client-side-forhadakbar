@@ -17,7 +17,7 @@ const APIContextProvider = ({ children }) => {
     // fetch data
 
     useEffect(() => {
-        fetch("https://gentle-earth-79632.herokuapp.com/services/")
+        fetch("https://gentle-earth-79632.herokuapp.com/services")
             .then(res => res.json())
             .then(data => {
                 setFakeData(data)
