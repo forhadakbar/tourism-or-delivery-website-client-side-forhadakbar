@@ -1,6 +1,12 @@
 # WeTourTravel Website
 
-This project was deployed in Firebase [Go To Live Site](https://tourism-website-forhadakbar.web.app).
+This project's client was deployed in Firebase [Go To Live Site](https://tourism-website-forhadakbar.web.app).
+
+This project's server was deployed in Heroku [Go To Live Site](https://gentle-earth-79632.herokuapp.com/).
+
+## GitHub Link
+[Client](https://github.com/forhadakbar/tourism-or-delivery-website-client-side-forhadakbar)
+[Server](https://github.com/forhadakbar/tourism-website-server-side-forhadakbar)
 
 ## Technology Used
 - JavaScript
